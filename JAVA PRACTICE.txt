@@ -1,0 +1,100 @@
+####################################
+class Addition {
+	public static void main(String[] args)
+	{
+		int a = 2500;
+		int b = 500;
+		
+	
+
+		System.out.println("addition ="+(a+b));
+		System.out.println("sub ="+(a-b));
+		System.out.println("mul ="+(a/b));
+		System.out.println("addition ="+(a%b));
+	}
+
+}
+
+
+################################################
+public class Program2{
+
+ 
+    public static void main(String []args){
+ 
+        String dna="GTAACCTTAAA";
+     
+   System.out.println(dna);
+    
+ }
+
+}
+#######################################################
+
+
+public class Program3{
+
+     public static void main(String []args){
+         String aa[]={"K","R", "A", "G","D"};
+         int Mwt[]={80,56,83,84,89};
+        for(int i=0; i<=4; i++)
+        {
+        System.out.print("Amino acid"+aa[i]);
+        System.out.println("\tand its molecular weight is:"+Mwt[i]);
+        }
+}
+}
+
+###############################################
+
+
+public class Program4{
+
+     public static void main(String []args){
+         String dna1="ATGCATGCCCGGTT";
+         String dna2="TTGGCCAATTCCAA";
+         String gum= dna1+dna2;
+        System.out.println(gum);
+     }
+}
+
+
+######################################
+public class Program5{
+
+     public static void main(String []args){
+         String sub[]={"Hindi","Maths","Sanskrit","Science","Computer","English"};
+         int marks[]={75,56,60,77,99,85};
+         int sum=0;
+         for(int i=0;i<=5;i++)
+         {
+             System.out.print(sub[i]);
+            System.out.println(marks[i]);
+             sum=sum+marks[i];
+         }
+         int avg= sum/6;
+         int percentage= avg*100;
+         System.out.print(" Percentage:"+percentage);
+         if(percentage>55)
+        System.out.println("Student is pass");
+     }
+}
+
+
+##############################################
+public class Program7{
+
+     public static void main(String []args){
+         double arr[]={41,200,12,14,24,188,17, 21, 20,11,23};
+            int sum=0;
+            {
+            for(int i=0; i<=10; i++)
+             {
+                sum+=arr[i] ;
+             }
+            }
+            int avg=sum/11;
+        System.out.println("the average is:"+sum);
+     }
+}
+
